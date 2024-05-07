@@ -89,6 +89,11 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     border-radius: 20px;
+    transition: 0.3s all ease-in-out;
+}
+.shop-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 20px 52px 0 rgb(226, 226, 226);
 }
 .img{
     width: 100%;
