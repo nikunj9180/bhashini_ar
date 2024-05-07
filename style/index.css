@@ -31,6 +31,7 @@ nav{
     height: 100vh;
     position: relative; 
     background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 10px ), repeating-linear-gradient( #c4c4c455, #c4c4c4 );
+    overflow: hidden;
 }
 .main-banner-cont{
     height: 100%;
@@ -52,6 +53,8 @@ nav{
     top: 0;
     left: 0;
     z-index: 11;
+    animation:imagefloat 40s ease-in-out infinite ;
+
 }
 .banner-bg-text h1{
     font-size: 12rem;
@@ -74,6 +77,7 @@ nav{
 }
 .right-banner-content img{
     width: 100%;
+    animation:imagefloat 40s ease-in-out infinite ;
 }
 
 /* shop cards */

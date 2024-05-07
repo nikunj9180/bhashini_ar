@@ -67,4 +67,17 @@ ul{
     text-transform: uppercase;
 }
 
-
+@keyframes imagefloat {
+    0%{
+        transform: translateY(0%);
+    }
+    33%{
+        transform: translateY(10%);
+    }
+    66%{
+        transform: translateY(-1%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
