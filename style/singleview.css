@@ -64,11 +64,14 @@
     overflow-x: hidden;
     gap: 25px;
     scroll-snap-type: x mandatory;
+    border-radius: 10%;
 }
 .cards-selection .card:nth-child(-n+2),.cards-selection .card:nth-last-child(-n+2){
-    background-color: inherit;
+    background-color:inherit;
 }
-
+.cards-selection .card:nth-child(-n+2){
+    background-color: rgba(0, 0, 0, 0.05);
+}
 ::-webkit-scrollbar{
     display: none;
 }
@@ -93,9 +96,21 @@
     transform: translateX(-50%);
 }
 
-.sample-button{
+
+
+.prev-button{
+    background-color: none;
+    border: none;
     position: absolute;
     z-index: 10;
-   top: 80px;
-   right: 30%;
+   bottom: 10%;
+   left: 33.5%;
+}
+.next-button{
+    background-color: none;
+    border: none;
+    position: absolute;
+    z-index: 10;
+   bottom: 10%;
+   left: 65%;
 }
