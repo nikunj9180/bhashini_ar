@@ -9,9 +9,9 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color(0xffffff);
 
 const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
-camera.position.setY(5);
-camera.position.setZ(10);
-camera.position.setX(-5);
+camera.position.setY(3);
+camera.position.setZ(7);
+camera.position.setX(-2);
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio(window.devicePixelRatio);
