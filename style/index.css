@@ -201,9 +201,11 @@ footer{
     padding-top: var(--padding-inline);
     gap: 10px;
 }
+.social-cont li a{
+    transition:0.2s all ease-in;
+}
 .social-cont li a:hover{
-    transform: scale(1.2);
-    transition:0.1s all ease-in;
+    transform: scale(1.15);
 }
 .footer-links{
     flex-direction: column;
