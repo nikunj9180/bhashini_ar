@@ -1,4 +1,4 @@
-/* .threejsview{
+.threejsview{
     width: 50%;
     height: 100vh;
 }
@@ -9,4 +9,4 @@ body{
 .inside{
     display: flex;
     justify-content: center;
-} */
+}

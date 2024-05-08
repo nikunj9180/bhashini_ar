@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhashini</title>
+
+    <link rel="stylesheet" href="../style/base.css">
+    <link rel="stylesheet" href="../style/index.css">
+    <link rel="stylesheet" href="../style/singleview.css">
+    <script src="https://kit.fontawesome.com/b5a8447ad3.js" crossorigin="anonymous" defer></script>
+
+
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+	<script type="importmap">
+		{
+			"imports": {
+				"three": "https://unpkg.com/three@0.156.0/build/three.module.js",
+				"three/addons/": "https://unpkg.com/three@0.156.0/examples/jsm/"
+			}
+		}
+	</script>
+
+    <script src="../js/snap-scroll.js" defer></script>
+</head>
+<body>
+    <nav>
+        <section class="main-nav container flex">
+            <div class="left-nav">
+                <img src="../assets/nav.svg" alt="">
+            </div>
+            <div class="mid-nav flex">
+                <ul class="navlinks flex">
+                    <li><a href="" class="hoverlinks">home</a></li>
+                    <li><a href="" class="hoverlinks">about</a></li>
+                    <li><a href="" class="hoverlinks">products</a></li>
+                    <li><a href="" class="hoverlinks">ar try on</a></li>
+                    <li><a href="" class="hoverlinks">contact</a></li>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <a href=""><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+            </div>
+        </section>
+    </nav>
+    <section class="product-display">
+        <div class="product-cont container">
+            <div class="left-product-cont">
+                <div id="container" class="threejsview"></div>
+            </div>
+            <div class="right-product-cont flex">
+                <h1>Ray Bans Classic</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, unde qui vero, ipsum quisquam molestias voluptatem doloremque a odio ducimus alias harum excepturi quos aperiam neque sapiente animi consequatur officiis.</p>
+                <h2>₹1,199</h2>
+                <div class="but-now-bttn"><a href="" class="primary-button">buy now</a></div>
+                <div class="add-to-cart-btn"><a href="" class="primary-button">cart</a></div>
+            </div>
+        </div>
+        <div class="overlays flex">
+            <div class="threeview">3D View</div>
+            <div class="arview">AR View</div>
+        </div>
+        <div class="cards-selection flex">
+            <div class="card"></div>
+            <div class="card"></div>
+
+            <div class="card"></div>
+            <!-- Main Cards -->
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <!-- ^--Main Cards -->
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+        <div class="card-ring"></div>
+        <div class="sample-button">
+            <button class="prev-button">Previous</button>
+            <button class="next-button">Next</button>
+        </div>
+    </section>
+    <script type="module" src="../js/3d.js"></script>
+</body>
+</html>

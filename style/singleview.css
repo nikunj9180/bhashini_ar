@@ -1,0 +1,101 @@
+.product-cont {
+    display: flex; /* Set the container as a flex container */
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.threejsview {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.left-product-cont {
+    width: 40%;
+    height: 500px;
+}
+
+.right-product-cont {
+    width: 100%;
+    max-width: 55%;
+    height: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding: var(--padding-inline);
+    justify-content: center;
+    user-select: none;
+}
+.right-product-cont h1{
+    text-transform: uppercase;
+}
+.overlays{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    border: 1px solid;
+    border-radius: 20px;
+    text-transform: uppercase;
+    box-shadow: 0 8px 35px 0 rgba(0, 0, 0, 0.352);
+    user-select: none;
+}
+.threeview{
+    border-right: 1px solid black;
+}
+.threeview,.arview{
+    padding: var(--padding-inline);
+}
+
+
+
+.cards-selection {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-50%);
+    height: 10vh;
+    width: 30%;
+    align-items: center;
+    padding: var(--padding-inline);
+    overflow-x: hidden;
+    gap: 25px;
+    scroll-snap-type: x mandatory;
+}
+.cards-selection .card:nth-child(-n+2),.cards-selection .card:nth-last-child(-n+2){
+    background-color: inherit;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.card {
+    padding: var(--padding-inline);
+    border-radius: 50%;
+    min-width: calc(100% / 5 - 20px);
+    height: 100%;
+    background-color: black;
+    scroll-snap-align: center;
+}
+
+.card-ring{
+    position: absolute;
+    z-index: 10;
+    width: calc(30% / 5 );
+    height: 10%;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sample-button{
+    position: absolute;
+    z-index: 10;
+   top: 80px;
+   right: 30%;
+}

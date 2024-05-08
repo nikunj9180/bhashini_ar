@@ -10,7 +10,8 @@ scene.background = new THREE.Color(0xffffff);
 
 const camera = new THREE.PerspectiveCamera(75, 1, 0.1, 1000);
 camera.position.setY(5);
-camera.position.setZ(15);
+camera.position.setZ(10);
+camera.position.setX(-5);
 
 const renderer = new THREE.WebGLRenderer();
 renderer.setPixelRatio(window.devicePixelRatio);
@@ -21,7 +22,7 @@ container.appendChild(renderer.domElement);
 
 const loader = new GLTFLoader();
 loader.load(
-  '../models/specs3.glb',
+  '../models/specs1.glb',
   function (gltf) {
     const model = gltf.scene;
 
