@@ -1,9 +1,21 @@
 .product-cont {
+    display: none;
+}
+.product-cont.active{
     display: flex; /* Set the container as a flex container */
     height: 100vh;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+}
+.ar-screen{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: antiquewhite;
+}
+.ar-screen.active{
+    display: block;
 }
 
 .threejsview {

@@ -21,6 +21,7 @@
 	</script>
 
     <script src="../js/snap-scroll.js" defer></script>
+    <script src="../js/viewcontrol.js" defer></script>
 </head>
 <body>
     <nav>
@@ -43,7 +44,7 @@
         </section>
     </nav>
     <section class="product-display">
-        <div class="product-cont container">
+        <div class="product-cont container" id="threeview">
             <div class="left-product-cont">
                 <div id="container" class="threejsview"></div>
             </div>
@@ -55,9 +56,12 @@
                 <div class="add-to-cart-btn"><a href="" class="primary-button">cart</a></div>
             </div>
         </div>
+        <div class="ar-screen" id="arview">
+
+        </div>
         <div class="overlays flex">
-            <div class="threeview">3D View</div>
-            <div class="arview">AR View</div>
+            <div class="threeview" id="btn1">3D View</div>
+            <div class="arview" id="btn2">AR View</div>
         </div>
         <div class="cards-selection flex">
             <div class="card"></div>
