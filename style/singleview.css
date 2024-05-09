@@ -71,14 +71,14 @@
     font-weight: bolder;
     background-color:rgb(238, 238, 238);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0,0.5);
-    border: 1px solid black;
+    border: 0.5px solid black;
     border-radius: inherit;
 }
 .arview.active{
     font-weight: bolder;
     background-color:rgb(238, 238, 238);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0,0.5);
-    border: 1px solid black;
+    border: 0.5px solid black;
     border-radius: inherit;
 }
 
