@@ -22,7 +22,7 @@ container.appendChild(renderer.domElement);
 
 const loader = new GLTFLoader();
 loader.load(
-  '../models/specs1.glb',
+  '../models/specs4.glb',
   function (gltf) {
     const model = gltf.scene;
 
