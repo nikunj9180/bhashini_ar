@@ -51,21 +51,33 @@
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 20px;
     text-transform: uppercase;
     box-shadow: 0 8px 35px 0 rgba(0, 0, 0, 0.352);
     user-select: none;
     backdrop-filter: blur( 8px );
     -webkit-backdrop-filter: blur( 8px );
+    cursor: pointer;
 }
-.threeview{
+/* .threeview{
     border-right: 1px solid black;
-}
+} */
 .threeview,.arview{
     padding: var(--padding-inline);
 }
-
+.threeview.active{
+    font-weight: bolder;
+    background-color:rgb(238, 238, 238);
+    border: 1px solid black;
+    border-radius: inherit;
+}
+.arview.active{
+    font-weight: bolder;
+    background-color:rgb(238, 238, 238);
+    border: 1px solid black;
+    border-radius: inherit;
+}
 
 
 .cards-selection {
