@@ -1,4 +1,6 @@
 // Function to fetch JSON data
+import { scrollToNext,scrollToPrevious } from "./snap-scroll.js";
+var index = 0;
 function fetchProductData() {
     // Make an HTTP request
     var xhr = new XMLHttpRequest();
@@ -12,9 +14,9 @@ function fetchProductData() {
         var products = productsData.products;
   
         // Accessing product by index
-        var index = 1; 
+        
 
-
+        console.log(index);
         var product = products[index]; // Adjust index since arrays are 0-indexed
   
         
@@ -43,12 +45,22 @@ function fetchProductData() {
   
   // Call the function to fetch product data
   fetchProductData();
-  nextButton.addEventListener("click", async () => {
-        const currentIndex = await scrollToNext() - 2;
-        console.log("Next - Current index:", currentIndex);
-    });
+  const prevButton = document.querySelector(".prev-button");
+  const nextButton = document.querySelector(".next-button");
 
-    prevButton.addEventListener("click", async () => {
-        const currentIndex = await scrollToPrevious() - 2;
-        console.log("Previous - Current index:", currentIndex);
-    });
+  var currentIndex=0;
+  nextButton.addEventListener("click", async () => {
+      currentIndex = await scrollToNext() - 2;
+      index=currentIndex;
+      fetchProductData();
+  });
+
+  prevButton.addEventListener("click", async () => {
+      currentIndex = await scrollToPrevious() - 2;
+      index=currentIndex;
+      fetchProductData();
+  });
+
+
+
+

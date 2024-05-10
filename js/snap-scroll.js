@@ -1,8 +1,6 @@
 
     const cards = document.querySelectorAll(".card");
     const container = document.querySelector(".cards-selection");
-    const prevButton = document.querySelector(".prev-button");
-    const nextButton = document.querySelector(".next-button");
 
     
     container.addEventListener("scroll", function(event) {
@@ -10,7 +8,7 @@
         return false;
     });
 
-    function scrollToNext() {
+    export function scrollToNext() {
         let nextCardIndex = getCurrentIndex() + 1;
         if (nextCardIndex >= cards.length) {
             nextCardIndex = cards.length - 1;
@@ -27,7 +25,7 @@
         });
     }
 
-    function scrollToPrevious() {
+    export function scrollToPrevious() {
         let prevCardIndex = getCurrentIndex() - 1;
         if (prevCardIndex < 0) {
             prevCardIndex = 0;
@@ -55,14 +53,6 @@
         });
         return currentIndex;
     }
-
-    nextButton.addEventListener("click", async () => {
-        const currentIndex = await scrollToNext() - 2;
-        console.log("Next - Current index:", currentIndex);
-    });
-
-    prevButton.addEventListener("click", async () => {
-        const currentIndex = await scrollToPrevious() - 2;
-        console.log("Previous - Current index:", currentIndex);
-    });
+    
+    
 
