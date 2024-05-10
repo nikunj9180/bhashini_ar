@@ -148,7 +148,8 @@
     align-items: center;
     justify-content: center;
 }
-.card-ring h1 i{
+.card-ring i{
+    font-size: 1.5rem;
     color: white;
 }
 
