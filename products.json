@@ -1,54 +1,35 @@
 {
-  "products": [
-    {
-      "name": "ray ban classic",
-      "description": "Experience timeless elegance with Ray Ban Classic sunglasses. Crafted for enduring style, these shades blend iconic design with modern flair. From sleek Wayfarer frames to versatile lens options, they're the epitome of sophistication.",
-      "price": 1999
-    },
-    {
-      "name": "vincent case rim aviator",
-      "description": "Elevate your look with Vincent Case Rim Aviator sunglasses. Combining classic aviator style with contemporary edge, they exude effortless coolness. Sleek metal rims and bold geometric lines make a statement wherever you go.",
-      "price": 2999
-    },
-    {
-      "name": "john jacobs",
-      "description": "Discover understated luxury with John Jacobs sunglasses. Minimalist design meets premium materials for refined elegance. Lightweight acetate and durable metal accents ensure both style and substance. Perfect for any occasion, they add a touch of sophistication to every ensemble.",
-      "price": 1249
-    },
-    {
-      "name": "Oakley Holbrook",
-      "description": "Make a bold statement with Oakley Holbrook sunglasses. Inspired by the screen heroes from the 1940s, 50s, and 60s, these shades represent the spirit of exploration and adventure. With high-definition optics and O-Matter frame material, they offer unparalleled comfort and clarity.",
-      "price": 1699
-    },
-    {
-      "name": "Persol PO0649",
-      "description": "Channel vintage Italian glamour with Persol PO0649 sunglasses. Handcrafted with the highest quality acetate and crystal lenses, these shades exude sophistication and style. The iconic arrow hinges and keyhole bridge add a timeless touch to any look.",
-      "price": 2399
-    },
-    {
-      "name": "Maui Jim Kawika",
-      "description": "Embrace island vibes with Maui Jim Kawika sunglasses. Inspired by the classic aviator style, these shades feature a lightweight titanium frame and polarized lenses for unparalleled clarity and glare protection. Whether you're lounging on the beach or exploring the city, they're the perfect blend of style and performance.",
-      "price": 2599
-    },
-    {
-      "name": "Prada Linea Rossa",
-      "description": "Experience urban sophistication with Prada Linea Rossa sunglasses. Designed for the modern adventurer, these shades combine sporty elegance with innovative technology. The sleek wraparound design and rubber temples ensure a comfortable fit, while the mirrored lenses add a touch of edge to any outfit.",
-      "price": 2999
-    },
-    {
-      "name": "Dior Stellaire",
-      "description": "Step into the spotlight with Dior Stellaire sunglasses. Featuring oversized square frames and ultra-thin metal temples, these shades exude glamour and sophistication. The gradient lenses add a touch of mystique, making them perfect for both daytime outings and evening soirees.",
-      "price": 3499
-    },
-    {
-      "name": "Gucci GG0061S",
-      "description": "Elevate your look with Gucci GG0061S sunglasses. Crafted in Italy, these shades feature a bold geometric design and oversized square frames. The iconic interlocking G logo on the temples adds a touch of luxury, while the gradient lenses provide 100% UV protection.",
-      "price": 2599
-    },
-    {
-      "name": "Tom Ford FT0334",
-      "description": "Make a statement with Tom Ford FT0334 sunglasses. Crafted in Italy, these shades feature a bold geometric design and oversized square frames. The iconic interlocking G logo on the temples adds a touch of luxury, while the gradient lenses provide 100% UV protection.",
-      "price": 2899
-    }
-  ]
-}
+    "products": [
+      {
+        "name": "ray ban classic",
+        "description": "Experience timeless elegance with Ray Ban Classic sunglasses. Crafted for enduring style, these shades blend iconic design with modern flair. From sleek Wayfarer frames to versatile lens options, they're the epitome of sophistication.",
+        "price": 1999,
+        "path":"../models/specs1.glb"
+      },
+      {
+        "name": "vincent case rim aviator",
+        "description": "Elevate your look with Vincent Case Rim Aviator sunglasses. Combining classic aviator style with contemporary edge, they exude effortless coolness. Sleek metal rims and bold geometric lines make a statement wherever you go.",
+        "price": 2999,
+        "path":"../models/specs2.glb"
+      },
+      {
+        "name": "john jacobs",
+        "description": "Discover understated luxury with John Jacobs sunglasses. Minimalist design meets premium materials for refined elegance. Lightweight acetate and durable metal accents ensure both style and substance. Perfect for any occasion, they add a touch of sophistication to every ensemble.",
+        "price": 999,
+        "path":"../models/specs3.glb"
+      },
+      {
+        "name": "Oakley Holbrook",
+        "description": "Make a bold statement with Oakley Holbrook sunglasses. Inspired by the screen heroes from the 1940s, 50s, and 60s, these shades represent the spirit of exploration and adventure. With high-definition optics and O-Matter frame material, they offer unparalleled comfort and clarity.",
+        "price": 1699,
+        "path":"../models/specs4.glb"
+      },
+      {
+        "name": "Persol PO0649",
+        "description": "Channel vintage Italian glamour with Persol PO0649 sunglasses. Handcrafted with the highest quality acetate and crystal lenses, these shades exude sophistication and style. The iconic arrow hinges and keyhole bridge add a timeless touch to any look.",
+        "price": 2399,
+        "path":"../models/specs5.glb"
+      }
+    ]
+  }
+  

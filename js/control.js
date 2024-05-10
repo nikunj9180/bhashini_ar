@@ -1,10 +1,10 @@
 import { scrollToNext,scrollToPrevious } from "./snap-scroll.js";
 import { fetchProductData } from "./product_data.js";
-
 const prevButton = document.querySelector(".prev-button");
 const nextButton = document.querySelector(".next-button");
 
 fetchProductData(0);
+
 
 var currentIndex=0;
 nextButton.addEventListener("click", async () => {

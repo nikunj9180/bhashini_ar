@@ -1,3 +1,4 @@
+import { loadModel } from "./3d.js";
 export function fetchProductData(index) {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', '../products.json', true);
@@ -16,6 +17,7 @@ export function fetchProductData(index) {
         document.getElementById('productName').innerText = product.name;
         document.getElementById('productDescription').innerText = product.description;
         document.getElementById('productPrice').innerText ='₹' + product.price;
+        loadModel(product.path);
       } else {
         console.error('Failed to load data. Status:', xhr.status);
       }
