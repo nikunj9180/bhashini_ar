@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+
     const cards = document.querySelectorAll(".card");
     const container = document.querySelector(".cards-selection");
     const prevButton = document.querySelector(".prev-button");
@@ -65,4 +65,4 @@ document.addEventListener("DOMContentLoaded", function() {
         const currentIndex = await scrollToPrevious() - 2;
         console.log("Previous - Current index:", currentIndex);
     });
-});
+
